@@ -1,0 +1,8 @@
+.vis-item.vis-box {
+    text-align: left !important;
+    border-color: #a0f991;
+    background-color: rgb(192, 255, 192);
+    font-size: 10pt;
+    color: rgb(0, 128, 0);
+    box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.5);
+  }
