@@ -11,7 +11,7 @@ const options = {
 const timeline = new vis.Timeline(container, items, options);
 const socket = io();
 socket.on("data", (arg) => {
-  let textToSend = `🇮🇩: ${arg.id}<br>
+  let textToSend = `
   🙂: ${arg.name}<br>
   🕐: ${arg.time}<br>
   📝: ${arg.message}
